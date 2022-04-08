@@ -11,6 +11,14 @@ Download Umlet (https://www.umlet.com/changes.htm) and design the data schema ne
   Every pizza that the pizzeria makes is tailor made for the needs of the specific customer. Customers must first choose the size of the pizza (small, medium or large). A small pizza starts at 8€, a medium pizza starts at 10€ and a large one starts at 15€. Once a size has been chosen the customer has to select a dough, here the options are Pan, Classic or Cheezy Crust. Both Pan and Classic are included in the , but if the user selects a cheezy crust pizza he will have to pay a supplement of 3€.
 <br><br>
   Once the type of dough has been decided the customer can add as many toppings as they would like to the pizza. Every topping has its own price. On the online menu card we want to show icons for toppings that are vegan. We also want to indicate how spicy a topping is. A topping can be (not spicy at all, a little spicy, medium spicy and very spicy).
+
+  - customers can make reservations
+  - When customers make their reservations they already have to select the pizza's they would like to eat
+  - Customers must first choose the size of the pizza (small, medium or large)
+  - A small pizza starts at 8€, a medium pizza starts at 10€ and a large one starts at 15€.
+  - Once a size has been chosen the customer has to select a dough, here the options are Pan, Classic or Cheezy Crust.
+  - Both Pan and Classic are included in the price, but if the user selects a cheezy crust pizza he will have to pay a supplement of 3€.
+  - the customer can add as many toppings as they would like
 </details>
 
 <details>
@@ -24,6 +32,14 @@ Download Umlet (https://www.umlet.com/changes.htm) and design the data schema ne
   Messages can be send one-to-one in a direct conversation from a sender to a receiver, but it is also possible to start a channel in order to support group discussions. Such a channel will always have name, and a list of members. 
 <br><br>
   The idea is that the user will see a list of all direct messages addressed to them, but also an overview of all channels so he can follow up on the discussions in there. Messages in private conversations and messages in group have the same functionality. 
+
+  -  The application will allow registered users to login and see and receive messages.
+  -  A message can contain a link to an external platform, an Image and rich text.
+  -  Users should always be able to see when a message was sent.
+  -  Messages can be send one-to-one in a direct conversation from a sender to a receiver?
+  -  but it is also possible to start a channel in order to support group discussions. Such a channel will always have name, and a list of members. 
+  -  The idea is that the user will see a list of all direct messages addressed to them, but also an overview of all channels so he can follow up on the discussions in there. 
+  -  Messages in private conversations and messages in group have the same functionality. 
 </details>
 
 <details>
@@ -33,7 +49,14 @@ Download Umlet (https://www.umlet.com/changes.htm) and design the data schema ne
   The city of Brussels is planning the CurieuzenAir project. The goal of this project is to gather information about the air quality throughout Brussels. In order to do so, they are planning on spreading 3000 air quality measuring devices over Brussels, that will perform air measurements every 30 minutes. Such measurements contain values for the amount of fine particles (PM2.5), PM10, Nitrogen Dioxide (NO2) and Carbon monoxide (CO). 
 <br>
 <br>
-  The city of Brussels is asking you to help set up a webpage on which all the measurement devices devices can be shown based on their location (latitude and longitude pairs) as well as to save all measuements and show an overview of these measurements for a selected device. Last but not least, it should also be possible to mark a measurement device as "out of order", if this happens the broken device will be shown on the map in a different color and someone from the repair crew can go and fix the broken device. 
+  The city of Brussels is asking you to help set up a webpage on which all the measurement devices devices can be shown based on their location (latitude and longitude pairs) as well as to save all measurements and show an overview of these measurements for a selected device. Last but not least, it should also be possible to mark a measurement device as "out of order", if this happens the broken device will be shown on the map in a different color and someone from the repair crew can go and fix the broken device. 
+
+  - The goal of this project is to gather information about the air quality throughout Brussels
+  - spreading 3000 air quality measuring devices over Brussels, that will perform air measurements every 30 minutes
+  - Such measurements contain values for the amount of fine particles (PM2.5), PM10, Nitrogen Dioxide (NO2) and Carbon monoxide (CO). 
+  - set up a webpage on which all the measurement devices devices can be shown based on their location (latitude and longitude pairs) as well as to save all measurements and show an overview of these measurements for a selected device.
+  - it should also be possible to mark a measurement device as "out of order",
+  - if this happens the broken device will be shown on the map in a different color 
 </details>
 
 <details>
@@ -51,4 +74,14 @@ Download Umlet (https://www.umlet.com/changes.htm) and design the data schema ne
   Aside from the modules, the homepage should also contain a list of all students that are enrolled for that class, with their names, discord handles, and github accounts so that it is easy for the team to reach specific students.
 <br><br>
   Last but not least, the team would also like to show a badge next to a students name for every module that the student has completed.
+
+  - the team members to keep track of all current classes
+  - HackYourFuture's curriculum consists of a list of many different modules
+  - every time a new class is launched a selection is made from all available modules to decide on the specific path of that class, depending on the available time and the desired outcome of the sessions. 
+  - The selection of which modules should be included for which classes is done by the HYF team.
+  - For the system, HYF would like to have a page that contains a list of all current classes.
+  - On this class homepage there should be an overview of all modules that are taught to this class, with their names, duration and a short description.
+  - Aside from the modules, the homepage should also contain a list of all students that are enrolled for that class, with their names, discord handles, and github accounts so that it is easy for the team to reach specific students.
+  -  show a badge next to a students name for every module that the student has completed.
+
 </details>
