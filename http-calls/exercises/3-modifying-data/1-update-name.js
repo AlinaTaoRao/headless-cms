@@ -6,17 +6,48 @@
  */
 
 async function updateProductName(productId, newName) {
-  const path = _;
-  const body = _;
-  const url = `http://localhost:1337/api/${path}`
+  // http://localhost:1337/api/products?
+  const path = `products/${productId}`;
+  const body = {
+    data: {
+      name:newName
+    }
+  };
+  const url = `http://localhost:1337/api/${path}`;
   const response = await fetch(url, {
-    method: _, // *GET, POST, PUT, DELETE, etc.
+    method: 'PUT', // *GET, POST, PUT, DELETE, etc.
     headers: {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(body) 
   });
+  console.log("run");
   return response.json();
 }
 
 updateProductName(15, "Dell XPS 15inch i5")
+
+/* way 2: not work */
+// async function updateProductName(productId, newName) {
+//   // http://localhost:1337/api/products?
+//   const path = `products/${productId}`;
+//   const body = {
+//     data:{
+//       id: productId,
+//       attributes: {
+//         name:newName
+//       },
+//     }
+//   };
+//   const url = `http://localhost:1337/api/${path}`;
+//   const response = await fetch(url, {
+//     method: 'PUT', // *GET, POST, PUT, DELETE, etc.
+//     headers: {
+//       'Content-Type': 'application/json'
+//     },
+//     body: JSON.stringify(body) 
+//   });
+//   return response.json();
+// }
+
+// updateProductName(15, "Dell XPS 15inch i5")
